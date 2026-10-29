@@ -1,6 +1,6 @@
 {
   "name": "validador",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Valida una tarea antes de mandarla a construir con un agente de IA: la comprueba contra el código, separa lo pedido de lo deducido y deja escrito qué no se toca y cómo se comprueba.",
   "author": { "name": "Luis Valenzuela", "url": "https://github.com/ing-valenzuela-galvan" },
   "repository": "https://github.com/ing-valenzuela-galvan/validador",

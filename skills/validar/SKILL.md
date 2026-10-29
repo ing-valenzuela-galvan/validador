@@ -32,7 +32,8 @@ la propia tarea, y solo si es un archivo del repositorio. Si la tarea es un issu
 validación en tu respuesta, lista para pegar; no publicas nada por tu cuenta.
 
 **Regla dura:** una tarea con preguntas abiertas **no queda lista**. Si al final quedan, la sesión termina diciendo
-cuáles son y a quién le toca cada una.
+cuáles son y a quién le toca cada una. Y «lista» quiere decir que se puede empezar ya: si antes tiene que pasar algo
+(otra tarea, un registro), el estado lo dice.
 
 ## 1. Consigue la tarea y lo que ya se decidió
 
@@ -158,6 +159,8 @@ la sección. Usa este formato:
 ## Validación — <fecha>
 
 **Estado:** LISTA PARA CONSTRUIR · Preguntas abiertas: ninguna
+<!-- o bien: LISTA AL CUMPLIRSE · Antes: <lo que tiene que pasar antes de construir, sin cambiar lo que dice la tarea:
+     otra tarea terminada, una decisión registrada donde el proyecto las lleva; cada punto con quién lo hace> -->
 <!-- o bien: NO LISTA · Falta: <lista exacta, cada punto con quién lo resuelve> -->
 
 | Afirmación de la tarea | Hallado | Cómo lo medí |
