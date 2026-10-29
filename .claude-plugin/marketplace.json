@@ -1,0 +1,14 @@
+{
+  "name": "validador",
+  "owner": { "name": "Luis Valenzuela" },
+  "metadata": {
+    "description": "Validar antes de construir: una skill para revisar tareas antes de pasárselas a un agente de IA."
+  },
+  "plugins": [
+    {
+      "name": "validador",
+      "source": "./",
+      "description": "Valida una tarea antes de mandarla a construir con un agente de IA."
+    }
+  ]
+}
