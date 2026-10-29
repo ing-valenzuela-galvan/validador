@@ -98,9 +98,15 @@ cuenta. Cada pregunta lleva, en lenguaje llano y sin nombres de clases:
 
 No se pregunta lo que el proyecto ya decidió ni lo que se puede medir.
 
+**Pregunta solo lo que bloquea esta tarea**, y como mucho tres preguntas completas: las que más cambian lo que se
+construye. Cada una cabe en unas diez líneas. Para lo demás propón un supuesto en una línea («Supongo X; si no, cambia
+Y») que el usuario acepta o convierte en pregunta. Una pregunta que el proyecto ya tiene registrada sin respuesta se
+pregunta igual si bloquea, citando su número.
+
 Una respuesta **no está resuelta hasta que baja** a: (a) una decisión escrita con su porqué, (b) los cambios a
-realizar, (c) los casos de prueba y (d) los criterios de aceptación. Anótala en la tarea como «decisión del usuario del
-\<fecha\>», con sus palabras cuando las haya.
+realizar, (c) los casos de prueba y (d) los criterios de aceptación. Anótala como «decisión del usuario del \<fecha\>»,
+con sus palabras cuando las haya: donde el proyecto lleve sus decisiones o preguntas, si tiene un lugar para eso, y en
+la tarea solo la referencia; si no lo tiene, en la tarea.
 
 Si el usuario no puede contestar porque lo sabe otra persona (un volumen, una regla de otra área), queda como
 pendiente con su dueño. El usuario puede aceptar un **supuesto** en su nombre, y se anota así: «supuesto aceptado por
@@ -110,7 +116,8 @@ puede cambiar barato cuando llegue la respuesta; si no, espera.
 ## 5. Lo que una tarea lista tiene que decir
 
 Revisa que la tarea tenga cada una de estas partes. La que falte la escribes tú, si es técnica, o se vuelve pregunta,
-si es de negocio.
+si es de negocio. Si el formato de tareas del proyecto no tiene lugar para ellas, van al final de la tarea, en una
+sección «Para quien construya».
 
 - **Alcance:** qué cambia, en términos de comportamiento.
 - **Fuera de alcance, explícito:** qué archivos, módulos o comportamientos **no** se tocan. Si no se dice, un agente
@@ -120,7 +127,7 @@ si es de negocio.
     pasa con o sin el cambio se puede pedir, pero se marca como regresión: cuida lo que ya funciona, no prueba el
     trabajo;
   - si todavía no hay código contra el cual medirlo, dilo así («no hay contra qué medir») y el caso queda como lo
-    primero que corre quien construya, antes de tocar nada;
+    primero que corre quien construya, antes de tocar nada. Si solo hay un prototipo, mide contra él y dilo;
   - afirma contra **el efecto real** (lo que quedó guardado, lo que respondió el servicio), no contra lo que muestra la
     pantalla;
   - afirma **la regla**, no la foto del día («la versión subió», no «la versión es 33»);
